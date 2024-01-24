@@ -1,0 +1,36 @@
+/* styles.css (or your stylesheet file) */
+.button {
+    margin-right: 5px;
+    
+  }
+  
+  .read {
+    background: #42a72be0;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: right;
+  }
+  
+  .delete {
+    background: #f14747ef;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: right;
+  }
+  
+  .update {
+    background: #3687c5;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: right;
+  }
+  

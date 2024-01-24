@@ -1,0 +1,93 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); */ */
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-bottom: 5px solid #f2f2f2;
+}
+.navbar h1 {
+  font-size: 35px;
+  color: #f1356d;
+  text-align: left;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  font-size: 22px;
+  margin-left: 30px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+
+
+
+/* ibdc */
+
+label, input ,select{
+  display: block;
+  margin-left: 40px;
+} 
+input ,select{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  width: 50%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: relative;
+  
+} */
+
+
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.cancel-button {
+  background-color: #b32b1ce6; /* Red color */
+  color: #fff; /* White text color */
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: right;
+  
+}
+
+
